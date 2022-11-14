@@ -52,6 +52,7 @@
     flex-grow: 1;
     gap: 8px;
     transition: box-shadow 200ms;
+    cursor: pointer;
 }
 
 .stat:hover {
@@ -60,9 +61,8 @@
 
 .label {
     font-weight: 700;
-    cursor: default;
 }
 
 .num {
-    cursor: default;
+    font-weight: 200;
 }
