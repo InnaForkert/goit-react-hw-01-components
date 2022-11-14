@@ -5,15 +5,15 @@ export const TransactionHistory = ({items}) => (
   <table className={css.table}>
   <thead>
     <tr>
-      <th>Type</th>
-      <th>Amount</th>
-      <th>Currency</th>
+      <th className={css.thead}>Type</th>
+      <th className={css.thead}>Amount</th>
+      <th className={css.thead}>Currency</th>
     </tr>
   </thead>
   <tbody>
     {items.map(item => 
       <tr key={item.id}>
-        <td>{item.type}</td>
+        <td className={css.capitilize}>{item.type}</td>
         <td>{item.amount}</td>
         <td>{item.currency}</td>
       </tr>
