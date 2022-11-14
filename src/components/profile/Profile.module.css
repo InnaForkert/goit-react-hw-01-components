@@ -1,7 +1,7 @@
 .profile {
     margin: 15px auto 0 auto;
     padding-top: 30px;
-    width: 30vw;
+    max-width: 40vw;
     background-color: azure;
     border-radius: 15px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
