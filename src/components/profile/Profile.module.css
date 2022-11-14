@@ -41,7 +41,7 @@
     justify-content: space-around;
     padding: 0;
     border-radius: 0 0 15px 15px;
-    border: 1px solid rgba(191, 248, 248, 0.692);
+    background-color: rgba(206, 255, 255, 0.692);
     overflow: hidden;
 }
 
